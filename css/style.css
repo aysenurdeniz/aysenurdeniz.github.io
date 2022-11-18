@@ -16,7 +16,7 @@ and open the template in the editor.
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 0.8rem;
+  --bs-body-font-size: 1.0rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -30,7 +30,6 @@ body {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -48,7 +47,7 @@ p {
 }
 
 .menu ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -69,36 +68,46 @@ footer div a:hover{
     text-decoration: none;
 }
 
-/*********** Time Line by totoprayogo **********/
+.fa {
+    color: white;
+}
 
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-    font-size: var(--bs-body-font-size);
+.fa:hover {
+    color: #AD432C;
 }
-ul.timeline:before {
-    content: ' ';
-    background: #AD432C;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
+
+.generalTitle {
+    font-family: SansSerif;
+    font-size: larger;
+    color: #212529;
+    border-left: 5px solid #AD432C;
+    padding: 5px;
+    background: rgba(173, 67, 44, 0.1);
 }
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
+
+.nameTitle {
+    font-family: SansSerif;
+    font-size: larger;
+    color: white;
+    border-bottom: 3px double white;
+    padding: 5px;
+    align-items: end;
 }
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #AD432C;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
+
+.subTitle{
+    font-family: SansSerif;
+    margin: 5px;
+    color: black;
+}
+.subTitle2{
+    font-family: SansSerif;
+    margin: 3px;
+    color: black;
+    font-style: unset;
+    padding-left: 25px;
+    color: #AD432C;
+}
+
+.cap {
+    color: #AD432C;
 }
