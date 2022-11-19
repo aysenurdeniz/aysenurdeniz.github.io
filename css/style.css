@@ -56,6 +56,10 @@ p {
     text-decoration: none;
 }
 
+.menu ul li a:focus:hover{
+    color: #AD432C;
+    text-decoration: none;
+}
 
 footer div a{
     color: black;
@@ -85,11 +89,28 @@ footer div a:hover{
     background: rgba(173, 67, 44, 0.1);
 }
 
+.generalTitle a{
+    color: #AD432C;
+}
+
+.generalTitle a:hover{
+    color: rgba(173, 67, 44, 0.6);
+}
+
 .nameTitle {
     font-family: SansSerif;
     font-size: larger;
     color: white;
     border-bottom: 3px double white;
+    padding: 5px;
+    align-items: end;
+}
+
+.nameTitle2 {
+    font-family: SansSerif;
+    font-size: larger;
+    color: #AD432C;
+    border-bottom: 3px double #AD432C;
     padding: 5px;
     align-items: end;
 }
