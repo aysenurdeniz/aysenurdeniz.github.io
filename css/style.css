@@ -56,6 +56,10 @@ p {
     text-decoration: none;
 }
 
+.logo-a{
+    text-decoration: none;
+}
+
 .menu ul li a:focus:hover{
     color: #AD432C;
     text-decoration: none;
