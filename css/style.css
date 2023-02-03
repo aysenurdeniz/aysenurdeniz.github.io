@@ -12,11 +12,13 @@ and open the template in the editor.
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Times New Roman", Times, serif;
+  --bs-font-comic: "Comic Sans MS", "Comic Sans", cursive;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font:"Segoe Print";
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1.0rem;
+  --bs-body-font-size: 0.85rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -85,22 +87,25 @@ footer div a:hover{
 }
 
 .generalTitle {
-    font-family: SansSerif;
     font-size: larger;
     color: #212529;
     border-left: 5px solid #AD432C;
-    padding: 5px;
+    padding: 5px 5px 5px 20px;
     background: rgba(173, 67, 44, 0.1);
     text-align: justify;
 }
 
 .generalTitle2 {
-    font-family: SansSerif;
-    font-size: larger;
     color: #212529;
-    border-left: 5px solid #AD432C;
-    padding: 5px;
+    border-left: 3px solid #AD432C;
+    padding: 3px;
     text-align: justify;
+}
+
+.generalTitle3 {
+    font-family: var(--bs-font);
+    font-size: larger;
+    margin: 2px;
 }
 
 .generalTitle2 a{
@@ -112,7 +117,6 @@ footer div a:hover{
 }
 
 .nameTitle {
-    font-family: SansSerif;
     font-size: larger;
     color: white;
     border-bottom: 3px double white;
@@ -121,7 +125,6 @@ footer div a:hover{
 }
 
 .nameTitle2 {
-    font-family: SansSerif;
     font-size: larger;
     color: #AD432C;
     border-bottom: 3px double #AD432C;
@@ -130,12 +133,10 @@ footer div a:hover{
 }
 
 .subTitle{
-    font-family: SansSerif;
     margin: 5px;
     color: black;
 }
 .subTitle2{
-    font-family: SansSerif;
     margin: 3px;
     color: black;
     font-style: unset;
@@ -144,6 +145,16 @@ footer div a:hover{
     text-align: justify;
 }
 
-.cap {
+.cap, .advisor{
+    color: #AD432C;
+    font-style: unset;
+    var(--bs-body-font-size);
+}
+
+.advisor:after{
+    color: white;
+}
+
+.active {
     color: #AD432C;
 }
