@@ -12,7 +12,7 @@ and open the template in the editor.
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Times New Roman", Times, serif;
+  --bs-font-sans-serif: Verdana,Geneva,sans-serif;
   --bs-font-comic: "Comic Sans MS", "Comic Sans", cursive;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-font:"Segoe Print";
