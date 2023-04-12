@@ -15,7 +15,6 @@ and open the template in the editor.
   --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-comic: "Comic Sans MS", "Comic Sans", cursive;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-font:"Segoe Print";
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 0.85rem;
@@ -104,7 +103,7 @@ footer div a:hover{
 }
 
 .generalTitle3 {
-    font-family: var(--bs-font);
+    font-family: var(--bs-font-sans-serif);
     font-size: larger;
     margin: 2px;
     align-items: center;
@@ -114,7 +113,7 @@ footer div a:hover{
 }
 
 .generalTitle4 {
-    font-family: var(--bs-font);
+    font-family: var(--bs-font-sans-serif);
     font-size: larger;
     margin: 2px;
 }
@@ -159,7 +158,7 @@ footer div a:hover{
 .cap, .advisor{
     color: #AD432C;
     font-style: unset;
-    var(--bs-body-font-size);
+    font-size: var(--bs-body-font-size);
 }
 
 .advisor:after{
