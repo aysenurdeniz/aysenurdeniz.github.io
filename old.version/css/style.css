@@ -155,7 +155,7 @@ footer div a:hover{
     text-align: justify;
 }
 
-.cap, .advisor{
+.cap, .advisor, .newsTitle{
     color: #AD432C;
     font-style: unset;
     font-size: var(--bs-body-font-size);
@@ -167,4 +167,13 @@ footer div a:hover{
 
 .active {
     color: #AD432C;
+}
+
+.newsIntro{
+    font-style: italic;
+    text-align: justify;
+}
+
+.newsBody{
+    text-align: justify;
 }
