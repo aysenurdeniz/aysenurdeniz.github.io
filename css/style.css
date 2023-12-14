@@ -160,8 +160,8 @@ footer div a:hover {
     font-size: var(--bs-body-font-size);
 }
 
-.advisor:after {
-    color: white;
+.advisor:hover {
+    color: #7A9D54;
 }
 
 .active {
