@@ -9,40 +9,40 @@ and open the template in the editor.
 */
 
 :root {
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-comic: "Comic Sans MS", "Comic Sans", cursive;
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 0.85rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-comic: "Comic Sans MS", "Comic Sans", cursive;
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-size: 0.85rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
 }
 
 body {
-  margin: 0;
-  font-family: var(--bs-font-sans-serif);
-  font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
-  line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
-  background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  padding-bottom: 70px;
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-bottom: 70px;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
-.menu{
+.menu {
     color: black;
     text-align: end;
 }
@@ -52,28 +52,28 @@ p {
     text-decoration: none;
 }
 
-.menu ul li a:hover{
-    color: #AD432C;
+.menu ul li a:hover {
+    color: #555843;
     text-decoration: none;
 }
 
-.logo-a{
+.logo-a {
     text-decoration: none;
 }
 
-.menu ul li a:focus:hover{
-    color: #AD432C;
+.menu ul li a:focus:hover {
+    color: #555843;
     text-decoration: none;
 }
 
-footer div a{
+footer div a {
     color: black;
     text-decoration: none;
     margin: 0px 10px 0px 10px;
 }
 
-footer div a:hover{
-    color: #AD432C;
+footer div a:hover {
+    color: #555843;
     text-decoration: none;
 }
 
@@ -82,14 +82,14 @@ footer div a:hover{
 }
 
 .fa:hover {
-    color: #AD432C;
+    color: #555843;
 }
 
 .generalTitle {
     color: #212529;
-    border-left: 3px solid #AD432C;
+    border-left: 3px solid #555843;
     padding: 5px;
-    background: rgba(173, 67, 44, 0.1);
+    background: rgba(167, 211, 151, 0.1);
 }
 
 .generalTitle2 {
@@ -98,9 +98,9 @@ footer div a:hover{
     text-align: justify;
 }
 
-.number{
+.number {
     padding: 3px;
-    background-color: rgba(173, 67, 44, 0.1);
+    background-color: rgb(208, 212, 202);
 }
 
 .generalTitle3 {
@@ -108,73 +108,76 @@ footer div a:hover{
     font-size: larger;
     margin: 2px;
     align-items: center;
-    border-left: 1px solid #AD432C;
+    border-bottom: 1px solid rgb(208, 212, 202);
     padding: 3px;
-    background: rgba(173, 67, 44, 0.1);
+    /* background: rgba(173, 67, 44, 0.1); */
 }
 
 .generalTitle4 {
     font-family: var(--bs-font-sans-serif);
     font-size: larger;
     margin: 2px;
+    font-weight: bold;
 }
 
-.generalTitle2 a{
-    color: #AD432C;
+.generalTitle2 a {
+    color: #555843;
 }
 
-.generalTitle2 a:hover{
-    color: rgba(173, 67, 44, 0.6);
+.generalTitle2 a:hover {
+    color: #7A9D54;
 }
 
 .nameTitle {
     font-size: larger;
-    color: white;
-    border-bottom: 3px double white;
     padding: 5px;
-    align-items: end;
+    align-items: center;
 }
 
 .nameTitle2 {
     font-size: larger;
-    color: #AD432C;
-    border-bottom: 3px double #AD432C;
+    border-bottom: 3px double #D0D4CA;
     padding: 5px;
     align-items: end;
 }
 
-.subTitle{
+.subTitle {
     padding: 3px;
     color: black;
 }
-.subTitle2{
+
+.subTitle2 {
     margin: 3px;
-    color: black;
     font-style: unset;
     padding-left: 25px;
-    color: #AD432C;
+    color: #D0D4CA;
     text-align: justify;
 }
 
-.cap, .advisor, .newsTitle{
-    color: #AD432C;
+.cap, .advisor, .newsTitle {
+    color: #555843;
     font-style: unset;
     font-size: var(--bs-body-font-size);
 }
 
-.advisor:after{
+.advisor:after {
     color: white;
 }
 
 .active {
-    color: #AD432C;
+    color: #D0D4CA;
 }
 
-.newsIntro{
+.newsIntro {
     font-style: italic;
     text-align: justify;
 }
 
-.newsBody{
+.newsBody {
     text-align: justify;
+}
+
+.blocks {
+    background-color: white;
+    padding: 1.5rem;
 }
