@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-Feb-2022, 20:03:30
+    Author     : aysenurdeniz
+*/
+
+:root {
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-comic: "Comic Sans MS", "Comic Sans", cursive;
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-size: 0.85rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-bottom: 70px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.menu {
+    color: black;
+    text-align: end;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #555843;
+    text-decoration: none;
+}
+
+.logo-a {
+    text-decoration: none;
+}
+
+.menu ul li a:focus:hover {
+    color: #555843;
+    text-decoration: none;
+}
+
+footer div a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+footer div a:hover {
+    color: #555843;
+    text-decoration: none;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover {
+    color: #555843;
+}
+
+.generalTitle {
+    color: #212529;
+    border-left: 3px solid #555843;
+    padding: 5px;
+    background: rgba(167, 211, 151, 0.1);
+}
+
+.generalTitle2 {
+    color: #212529;
+    padding: 3px;
+    text-align: justify;
+}
+
+.number {
+    padding: 3px;
+    background-color: rgb(208, 212, 202);
+}
+
+.generalTitle3 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: larger;
+    margin: 2px;
+    align-items: center;
+    border-bottom: 1px solid rgb(208, 212, 202);
+    padding: 3px;
+    /* background: rgba(173, 67, 44, 0.1); */
+}
+
+.generalTitle4 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: larger;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.generalTitle2 a {
+    color: #555843;
+}
+
+.generalTitle2 a:hover {
+    color: #7A9D54;
+}
+
+.nameTitle {
+    font-size: larger;
+    padding: 5px;
+    align-items: center;
+}
+
+.nameTitle2 {
+    font-size: larger;
+    border-bottom: 3px double #D0D4CA;
+    padding: 5px;
+    align-items: end;
+}
+
+.subTitle {
+    padding: 3px;
+    color: black;
+}
+
+.subTitle2 {
+    margin: 3px;
+    font-style: unset;
+    padding-left: 25px;
+    color: #D0D4CA;
+    text-align: justify;
+}
+
+.cap, .advisor, .newsTitle {
+    color: #555843;
+    font-style: unset;
+    font-size: var(--bs-body-font-size);
+}
+
+.advisor:hover {
+    color: #7A9D54;
+}
+
+.active {
+    color: #D0D4CA;
+}
+
+.newsIntro {
+    font-style: italic;
+    text-align: justify;
+}
+
+.newsBody {
+    text-align: justify;
+}
+
+.blocks {
+    padding: 1.5rem;
+}

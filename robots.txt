@@ -1,0 +1,3 @@
+User-agent: *
+Allow : /
+Sitemap : https://aysenurdeniz.github.io/sitemap.xml
